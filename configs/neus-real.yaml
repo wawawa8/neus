@@ -4,7 +4,7 @@ seed: 42
 
 dataset:
   name: realdata
-  root_dir: ./load/nerf_synthetic
+  root_dir: ./load/realdata
   img_wh:
     - 4000
     - 6000
