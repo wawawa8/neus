@@ -3,7 +3,7 @@ tag: ''
 seed: 42
 
 dataset:
-  name: real
+  name: realdata
   root_dir: ./load/nerf_synthetic
   img_wh:
     - 4000
