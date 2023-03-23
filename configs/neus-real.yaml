@@ -19,7 +19,7 @@ dataset:
 
 model:
   name: neus
-  radius: 1.0
+  radius: 2.0
   num_samples_per_ray: 1024
   train_num_rays: 256
   max_train_num_rays: 8192
@@ -60,7 +60,7 @@ model:
       n_neurons: 64
       n_hidden_layers: 1
       sphere_init: true
-      sphere_init_radius: 0.3
+      sphere_init_radius: 0.8
       weight_norm: true
   texture:
     name: volume-radiance
