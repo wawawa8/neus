@@ -102,7 +102,7 @@ class BlenderIterableDataset(IterableDataset, BlenderDatasetBase):
             yield {}
 
 
-@datasets.register('blender-real')
+@datasets.register('realdata')
 class BlenderRealDataModule(pl.LightningDataModule):
     def __init__(self, config):
         super().__init__()
